@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">AdjecText</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/newtext" name="newtext">Create New Text</string>
+    <string android:layout_height="wrap_content" android:id="@+id/viewfavorites" android:layout_width="wrap_content" name="viewfavorites">View Favorites</string>
+    <string android:layout_height="wrap_content" android:id="@+id/spinit" android:layout_width="wrap_content" name="spinit">Spin It!</string>
+    <string name="createmessage">Enter a short sentence to AdjecText! The simpler the better!</string>
+    <string name="chooseemotion">Choose an emotion!</string>
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="profound">Profound</string>
+    <string name="resulttext">New Text:</string>
+    <string name="adjectext2">AdjecText your AdjecText!</string>
+    <string name="save">Save This!</string>
+    <string name="home">Return Home</string>
+    <string name="slideshow">Slideshow</string>
+
+</resources>

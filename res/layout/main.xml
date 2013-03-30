@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:src="@drawable/adjectextlogo" />
+
+
+
+
+    <Button
+        android:id="@+id/newtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newtext" 
+        android:onClick="newtext"/>
+
+
+    <Button
+        android:id="@+id/viewfavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewfavorites" 
+        android:onClick="viewfavorites"/>
+
+</LinearLayout>

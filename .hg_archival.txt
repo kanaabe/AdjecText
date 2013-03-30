@@ -1,0 +1,5 @@
+repo: ee2879f0ac220adc91e6abe88e8e4f29d682841a
+node: ee2879f0ac220adc91e6abe88e8e4f29d682841a
+branch: default
+latesttag: null
+latesttagdistance: 1

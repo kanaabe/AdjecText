@@ -1,0 +1,108 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=5284, tid=4184
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_31-b05
+# Java VM: Java HotSpot(TM) Client VM (20.6-b01 mixed mode windows-x86 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x02129000):  JavaThread "Unknown thread" [_thread_in_vm, id=4184, stack(0x00200000,0x00250000)]
+
+Stack: [0x00200000,0x00250000],  sp=0x0024f86c,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x1335ca]
+V  [jvm.dll+0x12e57b]
+V  [jvm.dll+0x1639e]
+V  [jvm.dll+0x17bdf]
+V  [jvm.dll+0x26cc5]
+V  [jvm.dll+0x27506]
+V  [jvm.dll+0x278b5]
+V  [jvm.dll+0x27949]
+V  [jvm.dll+0x27a0c]
+V  [jvm.dll+0x27a8a]
+V  [jvm.dll+0x27b6d]
+V  [jvm.dll+0x27e39]
+V  [jvm.dll+0x6c383]
+V  [jvm.dll+0x6c75c]
+V  [jvm.dll+0xf9b4c]
+V  [jvm.dll+0x11848b]
+V  [jvm.dll+0x9eb60]
+C  [javaw.exe+0x1657]
+C  [javaw.exe+0x1e2c]
+C  [javaw.exe+0x8614]
+C  [kernel32.dll+0x8f13c]  BaseThreadInitThunk+0xe
+C  [ntdll.dll+0x7d819]  RtlCreateUserProcess+0x8c
+C  [ntdll.dll+0x7da2b]  RtlCreateProcessParameters+0x4e
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x02129000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4184, stack(0x00200000,0x00250000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00425000 	C:\Program Files (x86)\Java\jre6\bin\javaw.exe
+0x77b10000 - 0x77c70000 	C:\Windows\SysWOW64\ntdll.dll
+0x76b80000 - 0x76c90000 	C:\Windows\syswow64\kernel32.dll
+0x77020000 - 0x770e6000 	C:\Windows\syswow64\ADVAPI32.dll
+0x75c90000 - 0x75d80000 	C:\Windows\syswow64\RPCRT4.dll
+0x75ad0000 - 0x75b30000 	C:\Windows\syswow64\Secur32.dll
+0x75d80000 - 0x75e50000 	C:\Windows\syswow64\USER32.dll
+0x770f0000 - 0x77180000 	C:\Windows\syswow64\GDI32.dll
+0x76e70000 - 0x76ed0000 	C:\Windows\system32\IMM32.DLL
+0x76d40000 - 0x76e08000 	C:\Windows\syswow64\MSCTF.dll
+0x76c90000 - 0x76d3a000 	C:\Windows\syswow64\msvcrt.dll
+0x75c80000 - 0x75c89000 	C:\Windows\syswow64\LPK.DLL
+0x75c00000 - 0x75c7d000 	C:\Windows\syswow64\USP10.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jre6\bin\msvcr71.dll
+0x6d7f0000 - 0x6da9f000 	C:\Program Files (x86)\Java\jre6\bin\client\jvm.dll
+0x75340000 - 0x75372000 	C:\Windows\system32\WINMM.dll
+0x76ed0000 - 0x77015000 	C:\Windows\syswow64\ole32.dll
+0x776c0000 - 0x7774d000 	C:\Windows\syswow64\OLEAUT32.dll
+0x75150000 - 0x7518e000 	C:\Windows\system32\OLEACC.dll
+0x747c0000 - 0x747ec000 	C:\Windows\system32\apphelp.dll
+0x6d7a0000 - 0x6d7ac000 	C:\Program Files (x86)\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Program Files (x86)\Java\jre6\bin\java.dll
+0x6d7e0000 - 0x6d7ef000 	C:\Program Files (x86)\Java\jre6\bin\zip.dll
+0x75e50000 - 0x75e57000 	C:\Windows\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Program Files (x86)\Android\android-sdk\platforms\android-10\android.jar 
+java_command: edu.rutgers.cs.Sentence
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\MinGW\bin;C:\MINGW\msys\1.0\bin;C:\Program Files (x86)\Java\jre6\lib\ext\QTJava.zip
+PATH=C:/Program Files (x86)/Java/jre6/bin/client;C:/Program Files (x86)/Java/jre6/bin;C:\msys\1.0\bin;C:\mingw\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Common Files\Intuit\QBPOSSDKRuntime;C:\Program Files (x86)\Common Files\Roxio Shared\9.0\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:Program Files\Java\jdk1.6.0_21\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files\Mercurial;C:\Program Files\TortoiseHg\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell
+USERNAME=Kana
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 15 Stepping 13, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows Vista , 64 bit Build 6002 Service Pack 2
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 13, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 4028544k(1463056k free), swap 8279580k(5097852k free)
+
+vm_info: Java HotSpot(TM) Client VM (20.6-b01) for windows-x86 JRE (1.6.0_31-b05), built on Feb  3 2012 18:44:09 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Mon Apr 30 13:33:26 2012
+elapsed time: 0 seconds
+
